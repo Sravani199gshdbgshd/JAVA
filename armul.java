@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+class armul{
+public static void main(String args[]){
+Scanner S = new Scanner(System.in);
+ System.out.print("Enter the value of number: ");
+int n = S.nextInt();
+int arr[] = new int[n];
+int res=1;
+for(int i=0; i<n; i++)
+{
+arr[i] = S.nextInt();
+res *= arr[i];
+}
+System.out.println("The multiplication of the array elements is: " + res);
+}
+}
+
